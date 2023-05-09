@@ -1,0 +1,14 @@
+export const host = 'http://localhost:5000';
+export const loginRoute = `${host}/admin/adminsignin`;
+export const logoutRoute = `${host}/`;
+export const allUsersRoute = `${host}/admin/filterAll`;
+export const customersRoute = `${host}/admin/filtercustomer`;
+export const vendorsRoute = `${host}/admin/filtervendor`;
+export const custvendRoute = `${host}/admin/customervendors`;
+export const forgotRoute = `${host}/admin/updatepassword`;
+export const totalcountRoute = `${host}/admin/count`;
+export const custcountRoute = `${host}admin / countCustomer`;
+export const vendcountRoute = `${host}admin / countVendor`;
+export const custvendcountRoute = `${host}admin / customervendor`;
+export const newuserRoute = `${host}admin / createuser`;
+export const searchRoute = `${host}admin / search`;
